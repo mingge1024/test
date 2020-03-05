@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>springboot-thymeleaf demo</title>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <link type="text/css" href="/webjars/bootstrap/js/bootstrap.min.js">
+    <link type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="row">
+    <p th:text="'hello, ' + ${test} + '!'" />
+    <h3></h3>
+</div>
+
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("h3").text("你好啊！")
+    });
+</script>
+</html>

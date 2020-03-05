@@ -1,0 +1,8 @@
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: c44200e8-b329-409f-9bcf-96d1443b18c3
+    file-extension: yaml
+  discovery:
+    server-addr: 127.0.0.1:8848
+    namespace: c44200e8-b329-409f-9bcf-96d1443b18c3
